@@ -1,0 +1,115 @@
+/* Colors and fonts */
+body {
+  background: #F7F9FC;
+  color: #333333; /* Text color */
+  font-family: 'Lora', serif;
+  font-size: 16px; /* Slightly reduced font size for readability */
+  font-weight: normal;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #333333;
+  font-size: 36px; /* Increased font size for emphasis */
+  font-weight: 700; /* Bolder font weight for headings */
+}
+
+h2 {
+  color: #00796B; /* Green color for headings */
+  font-size: 24px;
+  font-weight: 500; /* Slightly bolder font weight */
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #2962FF; /* Blue color for links */
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #000; /* Darker color on hover for better contrast */
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+  width: 700px;
+  margin: 40px auto;
+  background: #fff; /* White container background */
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* Reduced padding for a cleaner look */
+  text-align: left; /* Align text to the left for a professional appearance */
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 90%; /* Responsive width for smaller screens */
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 80%; /* Further reduction for smaller screens */
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 95%; /* Optimized width for very small screens */
+    padding: 10px; /* Reduced padding for smaller screens */
+  }
+}
+
+.card-white {
+  background-color: #fff; /* White background for cards */
+  padding: 20px; /* Slightly reduced padding for cards */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Smoother shadow */
+  border-radius: 6px; /* Slightly rounded corners for cards */
+  margin: 20px 0;
+  text-align: left; /* Align text to the left for cards */
+}
+
+.img-circle {
+  border-radius: 50%; /* Circular profile image */
+}
+
+.btn-blue {
+  background-color: #2962FF; /* Blue button background */
+  color: #fff; /* White text for buttons */
+  padding: 12px 20px; /* Adjusted button padding */
+  border-radius: 4px;
+  text-align: center; /* Center text in the button */
+}
+
+.btn-blue:hover {
+  background-color: #000; /* Darker color on hover for contrast */
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 32px; /* Smaller icon size for better visual balance */
+  color: #666;
+}
+
+.list-inline i:hover {
+  color: #000; /* Darker color on hover for contrast */
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 30px; /* Slightly reduced margin for better spacing */
+}
