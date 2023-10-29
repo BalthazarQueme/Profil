@@ -1,8 +1,8 @@
-/* Styles for a Dark, Clean, Professional, and Attractive Profile Page */
+/* Styles for a Clean, Professional, and Attractive Profile Page inspired by Apple */
 body {
   background: #1e1e1e; /* Background color for the entire page */
   color: #ffffff; /* Text color */
-  font-family: 'Arial', sans-serif;
+  font-family: 'San Francisco', 'Arial', sans-serif; /* San Francisco as the primary font */
   font-size: 16px;
   line-height: 1.6;
 }
@@ -88,9 +88,4 @@ a:hover {
 
 .list-inline i:hover {
   color: #ffffff; /* Social icon color on hover */
-}
-
-/* Design adjustments using id (1% design remaining) */
-#introduction p {
-  margin-bottom: 30px; /* Slightly reduced margin for better spacing */
 }
