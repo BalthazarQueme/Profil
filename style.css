@@ -1,90 +1,74 @@
-/* Styles for a Clean, Professional, and Attractive Profile Page inspired by Apple */
+/* Colors and Fonts */
 body {
-  background: #1e1e1e; /* Background color for the entire page */
-  color: #ffffff; /* Text color */
-  font-family: 'San Francisco', 'Arial', sans-serif; /* San Francisco as the primary font */
+  background: #f5f5f5; /* Arrière-plan gris clair */
+  color: #333; /* Texte principal en noir */
+  font-family: 'Montserrat', sans-serif; /* Utilisation de la police Montserrat */
   font-size: 16px;
-  line-height: 1.6;
 }
 
-.container {
-  max-width: 800px; /* Adjust the maximum width as needed */
-  margin: 0 auto;
-  padding: 20px;
-  background: #2c2c2c; /* Background color for the container */
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 4px;
-  text-align: center;
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
+  color: #ff5733; /* Rouge vif pour les titres principaux */
   font-size: 36px;
-  font-weight: 900;
-  margin-bottom: 20px;
-  color: #ffffff; /* Heading text color */
+  font-weight: 700;
 }
 
 h2 {
+  color: #33b5e5; /* Bleu vif pour les sous-titres */
   font-size: 24px;
-  font-weight: 700;
-  color: #7ECE90; /* Subheading text color */
-}
-
-p {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: #6B72E1; /* Link text color */
   font-weight: 600;
 }
 
-a:hover {
-  color: #4e4e4e; /* Link text color on hover */
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #ffac33; /* Orange vif pour les liens */
+  font-weight: 500;
 }
 
-.card-white {
-  background-color: #363636; /* Card background color */
-  padding: 30px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+a:hover {
+  color: #ff5733; /* Rouge vif au survol */
+}
+
+/* Container Styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff; /* Fond blanc pour le contenu */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
-  margin: 20px 0px;
   text-align: left;
 }
 
-.img-circle {
-  border-radius: 50%;
+/* Card Styles */
+.card-white {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin: 20px 0;
+  text-align: left;
 }
 
+/* Buttons */
 .btn-blue {
-  background-color: #6B72E1; /* Button background color */
-  color: #ffffff; /* Button text color */
-  padding: 15px 20px;
+  background-color: #33b5e5; /* Bleu vif pour les boutons */
+  color: #fff;
+  padding: 12px 20px;
   border-radius: 4px;
-  text-transform: uppercase;
+  text-align: center;
   display: inline-block;
+  font-weight: 600;
 }
 
 .btn-blue:hover {
-  background-color: #4e4e4e; /* Button background color on hover */
+  background-color: #33a0e5; /* Bleu légèrement plus foncé au survol */
 }
 
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
-}
-
-.list-inline li {
-  display: inline;
-  margin-right: 10px;
-}
-
-.list-inline i {
-  font-size: 24px;
-  color: #7ECE90; /* Social icon color */
-}
 
 .list-inline i:hover {
   color: #ffffff; /* Social icon color on hover */
